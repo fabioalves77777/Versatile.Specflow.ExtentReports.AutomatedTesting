@@ -1,0 +1,1038 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Extent Framework</title>
+  <link rel="apple-touch-icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/cd00a5e/spark/css/style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+
+
+<body class="test-view bdd-report standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Extent Framework</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">5/11/2021 12:05:18 PM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row">
+                        <div class="test-list">
+                            <div class="test-list-tools">
+                                <ul class="tools pull-left">
+                                    <li>
+                                        <a href="">
+                                            <span class="font-size-14">Tests</span>
+                                        </a>
+                                    </li> 
+                                </ul>
+                                <ul class="tools text-right">
+									<li class="user-profile dropdown dropdown-animated scale-left">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+											<i class="fa fa-exclamation-circle"></i>
+										</a>
+										<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>																																																																		<div class="dropdown-divider"></div>
+											<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+										</ul>
+									</li>
+																		                                </ul>
+                            </div>
+                            <div class="test-list-wrapper scrollable">
+                                <ul class="test-list-item">
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">01) Register User</p> 
+													<p class="duration text-sm">0h:1m:56s+208ms</p> 
+													<span class="datetime">12:05:18 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">01) Register User</h5>
+															<span class='badge badge-success'>5/11/2021 12:05:18 PM</span>
+															<span class='badge badge-danger'>5/11/2021 12:07:14 PM</span>
+															<span class='badge badge-default'>0h:1m:56s+208ms</span>
+														</div>
+																											</div>
+												</div>
+
+<div class="accordion mt-4">
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">01) Validate mandatory fields</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user wants to create an account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpFCE9.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpFCE9.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpFCE9.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data for registration "" "" ""</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpFE52.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpFE52.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpFE52.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that mandatory registration fields have not been filled out "" "" ""</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">01) Validate mandatory fields</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user wants to create an account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6470.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6470.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6470.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data for registration "" "teste@naocadastrado.com" "123456"</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp65E8.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp65E8.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp65E8.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that mandatory registration fields have not been filled out "" "teste@naocadastrado.com" "123456"</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp685A.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp685A.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp685A.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">01) Validate mandatory fields</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user wants to create an account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp84DC.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp84DC.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp84DC.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data for registration "naocadastrado" "" "123456"</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8616.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8616.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8616.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that mandatory registration fields have not been filled out "naocadastrado" "" "123456"</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8D5A.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8D5A.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8D5A.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">01) Validate mandatory fields</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user wants to create an account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpA855.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpA855.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpA855.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data for registration "naocadastrado" "teste@naocadastrado.com" ""</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpAA4A.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpAA4A.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpAA4A.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that mandatory registration fields have not been filled out "naocadastrado" "teste@naocadastrado.com" ""</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpAC3F.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpAC3F.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpAC3F.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">02) Validate email already registered</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user wants to create an account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpCCA9.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpCCA9.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpCCA9.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data for registration</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpCE60.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpCE60.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpCE60.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that there is already a registered record for this email</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD19D.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD19D.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD19D.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">03) Perform registration</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user wants to create an account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB0E2.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB0E2.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB0E2.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data for registration</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB21C.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB21C.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB21C.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that the registration was successful</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB559.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB559.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB559.png'></span>
+					</div>
+				</div>
+	</div>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">02) Authenticate User</p> 
+													<p class="duration text-sm">0h:0m:42s+831ms</p> 
+													<span class="datetime">12:07:19 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">02) Authenticate User</h5>
+															<span class='badge badge-success'>5/11/2021 12:07:19 PM</span>
+															<span class='badge badge-danger'>5/11/2021 12:08:01 PM</span>
+															<span class='badge badge-default'>0h:0m:42s+831ms</span>
+														</div>
+																											</div>
+												</div>
+
+<div class="accordion mt-4">
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">01) Validate mandatory fields</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user wants to authenticate</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD332.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD332.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD332.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user enter the necessary data for authentication "" ""</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD4E9.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD4E9.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD4E9.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that mandatory fields have not been filled out "" ""</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD661.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD661.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD661.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">01) Validate mandatory fields</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user wants to authenticate</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpF3CD.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpF3CD.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpF3CD.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user enter the necessary data for authentication "" "123456"</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpF5C2.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpF5C2.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpF5C2.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that mandatory fields have not been filled out "" "123456"</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpF7C7.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpF7C7.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpF7C7.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">01) Validate mandatory fields</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user wants to authenticate</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp160E.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp160E.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp160E.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user enter the necessary data for authentication "test@naocadastrado.com" ""</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp1803.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp1803.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp1803.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that mandatory fields have not been filled out "test@naocadastrado.com" ""</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp19E8.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp19E8.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp19E8.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">02) Validate invalid login</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user wants to authenticate</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp36C8.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp36C8.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp36C8.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data for authentication</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3969.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3969.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3969.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that authentication has not been carried out</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp40CC.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp40CC.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp40CC.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">03) Log in</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user wants to authenticate</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6780.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6780.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6780.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data for authentication</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp69D2.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp69D2.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp69D2.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that the authentication was successful</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6D00.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6D00.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6D00.png'></span>
+					</div>
+				</div>
+	</div>
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">03) Maintain Account</p> 
+													<p class="duration text-sm">0h:1m:30s+095ms</p> 
+													<span class="datetime">12:08:06 PM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">03) Maintain Account</h5>
+															<span class='badge badge-success'>5/11/2021 12:08:06 PM</span>
+															<span class='badge badge-danger'>5/11/2021 12:09:36 PM</span>
+															<span class='badge badge-default'>0h:1m:30s+095ms</span>
+														</div>
+																											</div>
+												</div>
+
+<div class="accordion mt-4">
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">01) Add Account - Validate mandatory fields</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user authenticates in the system</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8B76.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8B76.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8B76.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user accesses the add account screen</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8E84.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8E84.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8E84.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data for the creation of the account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8F21.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8F21.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8F21.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that mandatory fields have not been filled in the inclusion</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp90A9.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp90A9.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp90A9.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">02) Add Account - Validate account already registered</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user authenticates in the system</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB22C.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB22C.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB22C.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user accesses the add account screen</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB53A.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB53A.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB53A.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data for the creation of the account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB616.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB616.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB616.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that there is already a registered account with the same name in the inclusion</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB82A.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB82A.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpB82A.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">03) Add account</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user authenticates in the system</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD71D.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD71D.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD71D.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user accesses the add account screen</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDA99.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDA99.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDA99.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data to create the account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDB65.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDB65.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDB65.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that the account has been successfully added</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpE1EE.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpE1EE.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpE1EE.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">04) Change Account - Validate mandatory fields</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user authenticates in the system</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpFF89.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpFF89.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpFF89.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user accesses the list of account screen</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp48B.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp48B.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp48B.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user accesses the change account screen</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6DE.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6DE.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6DE.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data to change the account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp7C9.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp7C9.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp7C9.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that mandatory fields were not filled in the change</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp9DD.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp9DD.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp9DD.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">05) Change Account - Validate account already registered</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user authenticates in the system</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp2CB8.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp2CB8.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp2CB8.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user accesses the list of account screen</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3312.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3312.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3312.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user accesses the change account screen</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3517.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3517.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3517.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data to change the account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp367F.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp367F.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp367F.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that there is already an account registered with the same name in the change</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3911.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3911.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp3911.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">06) Change account</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user authenticates in the system</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp5B7E.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp5B7E.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp5B7E.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user accesses the list of account screen</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp5FD4.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp5FD4.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp5FD4.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user accesses the change account screen</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6208.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6208.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6208.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user inform the necessary data to change the account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp63BE.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp63BE.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp63BE.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that the account has been successfully changed</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6834.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6834.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp6834.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">07) Delete account - Validate account deletion with movement</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user authenticates in the system</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8F64.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8F64.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp8F64.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user accesses the list of account screen</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp93CA.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp93CA.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp93CA.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user requests the exclusion of the account with movement</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp9B2E.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp9B2E.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp9B2E.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that he cannot delete account with movement</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp9C0A.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp9C0A.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmp9C0A.png'></span>
+					</div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<h5 class="card-title pl-3">
+				<div class="node">08) Delete account</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</h5>
+		</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user authenticates in the system</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD4FD.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD4FD.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpD4FD.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user accesses the list of account screen</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDA8C.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDA8C.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDA8C.png'></span>
+							<div class="d-flex align-items-center justify-content-start given" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Given that the user requests the deletion of the account</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDC90.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDC90.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDC90.png'></span>
+							<div class="d-flex align-items-center justify-content-start then" title="">
+								<span class="alert-icon pass-bg">
+									<i class="fa fa-check text-white"></i>
+								</span>
+								<span>Then the user is informed that the account has been successfully deleted</span>
+							</div>
+			<div class="details"></div>
+			<span class="badge badge-primary"><img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDD6C.png' src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDD6C.png' data-src='C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.UIAutomatedTesting\\TestResults\Img\tmpDD6C.png'></span>
+					</div>
+				</div>
+	</div>
+</div>
+											</div>
+										</li>
+                                </ul>    
+                            </div>
+                        </div>
+                        <div class="test-content scrollable">
+                            <div class="test-content-tools">
+                                <ul>
+                                    <li>
+                                        <a class="back-to-test" href="javascript:void(0)">
+                                            <i class="fa fa-arrow-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="test-content-detail">
+                                <div class="detail-body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script type='text/javascript'>
+	
+</script>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/f97b667/spark/js/script.js"></script>
+
+</body>
+
+</html>
