@@ -16,7 +16,8 @@
           "NUnit3TestAdapter": "3.17.0",
           "RestSharp": "106.11.7",
           "SpecFlow": "3.7.38",
-          "SpecFlow.NUnit": "3.7.38"
+          "SpecFlow.NUnit": "3.7.38",
+          "Versatile.Specflow.ExtentReports.CryptoEngine": "1.0.0"
         },
         "runtime": {
           "Versatile.Specflow.ExtentReports.ApiAutomatedTesting.dll": {}
@@ -1787,6 +1788,17 @@
             "fileVersion": "1.3.7.0"
           }
         }
+      },
+      "Versatile.Specflow.ExtentReports.CryptoEngine/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Json": "5.0.0",
+          "Microsoft.NET.Test.Sdk": "16.9.4",
+          "NUnit": "3.13.2",
+          "NUnit3TestAdapter": "3.17.0"
+        },
+        "runtime": {
+          "Versatile.Specflow.ExtentReports.CryptoEngine.dll": {}
+        }
       }
     }
   },
@@ -2859,6 +2871,11 @@
       "sha512": "sha512-lMTNZWp6a6KGkgMc3rW41D3b0REb03fQycfb/2bNBpiUtsbGYYI/LrAhnX52vrHRe4ze7JxbtpWF1Y5ohdpipQ==",
       "path": "utf8json/1.3.7",
       "hashPath": "utf8json.1.3.7.nupkg.sha512"
+    },
+    "Versatile.Specflow.ExtentReports.CryptoEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -18,4 +18,8 @@
     <PackageReference Include="SpecFlow.NUnit" Version="3.7.38" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Versatile.Specflow.ExtentReports.CryptoEngine\Versatile.Specflow.ExtentReports.CryptoEngine.csproj" />
+  </ItemGroup>
+
 </Project>
