@@ -27,7 +27,7 @@ namespace Versatile.Specflow.ExtentReports.AzureTestAssociation.Helpers
                 {
                     { "Microsoft.VSTS.TCM.AutomatedTestStorage", automatedTestStorage },
                     { "Microsoft.VSTS.TCM.AutomatedTestType", "Unit Test" },
-                    { "Microsoft.VSTS.TCM.AutomationStatus", "Planned" }, // VIEW THE STATUS ON YOUR TFS/AZURE!
+                    { "Microsoft.VSTS.TCM.AutomationStatus", "Automated" }, // VIEW THE STATUS ON YOUR TFS/AZURE!
                     { "Microsoft.VSTS.TCM.AutomatedTestName", automatedTestName }
                 };
                 UpdateWorkItem(testCaseId, fields);
