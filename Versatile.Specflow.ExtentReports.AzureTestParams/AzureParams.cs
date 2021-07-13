@@ -1,14 +1,13 @@
 ﻿using System.Data;
 using System.Threading.Tasks;
-using Versatile.Specflow.ExtentReports.CryptoEngine.AppSettings;
 using Versatile.Specflow.ExtentReports.CryptoEngine.CryptoEngine;
 
 namespace Versatile.Specflow.ExtentReports.AzureTestParams
 {
     public class AzureParams
     {
-        private static readonly string _vstsPat = ConfigurationManager.AppSetting["VstsPat:Token"];
-        private static readonly string _cryptoKey = ConfigurationManager.AppSetting["Crypto:Key"];
+        private static readonly string _vstsPat = "Nuo2Cj55W7vI/oNHJ0MHNN39oHc+LcJIdnJDQoVkBiWH3m3hgOOoZjrdvfqZNWgjgH9wdHNrLCDjMeG7V5cUpQ==";
+        private static readonly string _cryptoKey = "Cybernetics CRM 4.0 Word Addin";
         private static readonly string _vstsUrl = "https://fabiotestproject.visualstudio.com/";
 
         public DataRowCollection GetParams(string testcaseID)

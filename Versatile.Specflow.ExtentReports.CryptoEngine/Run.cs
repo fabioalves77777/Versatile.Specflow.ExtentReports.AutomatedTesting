@@ -9,7 +9,7 @@ namespace Versatile.Specflow.ExtentReports.CryptoEngine
 
         [Test]
         public void Encrypt() 
-            => Console.WriteLine(Crypto.Encrypt("rjk3qmn2qdy4w4asbjyzhnxhho5ub3xpx6puqe2nmulud4ajnvkq", "Cybernetics CRM 4.0 Word Addin"));
+            => Console.WriteLine(Crypto.Encrypt("jdb6efayuqypvoavezcdwwmxkouj2hqy4da3s7thefgx2vi4gedq", "Cybernetics CRM 4.0 Word Addin"));
 
     }
 }
