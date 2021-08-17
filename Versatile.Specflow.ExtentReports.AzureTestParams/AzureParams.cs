@@ -6,7 +6,7 @@ namespace Versatile.Specflow.ExtentReports.AzureTestParams
 {
     public class AzureParams
     {
-        private static readonly string _vstsPat = "Nuo2Cj55W7vI/oNHJ0MHNN39oHc+LcJIdnJDQoVkBiWH3m3hgOOoZjrdvfqZNWgjgH9wdHNrLCDjMeG7V5cUpQ==";
+        private static readonly string _vstsPat = "/VcGGZ+g3OX4nqKQAM32byqU0ha0yjZ5go2zA3bLhvX/WYME4kx+qqL0SKGVbiIg0G+LNXBZzliJAPlXkYOgJg==";
         private static readonly string _cryptoKey = "Cybernetics CRM 4.0 Word Addin";
         private static readonly string _vstsUrl = "https://fabiotestproject.visualstudio.com/";
 

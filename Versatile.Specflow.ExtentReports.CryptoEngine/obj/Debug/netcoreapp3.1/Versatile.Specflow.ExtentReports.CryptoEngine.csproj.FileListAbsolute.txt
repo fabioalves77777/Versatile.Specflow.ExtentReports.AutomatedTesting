@@ -12,7 +12,6 @@ C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\Versatile.Specflow.ExtentReports.CryptoEngine.dll
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\Versatile.Specflow.ExtentReports.CryptoEngine.pdb
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
@@ -31,7 +30,6 @@ C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\nunit.framework.dll
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\System.Text.Json.dll
-C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -104,3 +102,5 @@ C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\obj\Debug\netcoreapp3.1\Versatile.Specflow.ExtentReports.CryptoEngine.dll
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\obj\Debug\netcoreapp3.1\Versatile.Specflow.ExtentReports.CryptoEngine.pdb
 C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\obj\Debug\netcoreapp3.1\Versatile.Specflow.ExtentReports.CryptoEngine.genruntimeconfig.cache
+C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\obj\Debug\netcoreapp3.1\Versatile.Specflow.ExtentReports.CryptoEngine.csprojAssemblyReference.cache
+C:\Users\fabio.alves\Documents\Desenvolvimento\Versatile.Specflow.ExtentReports.AutomatedTesting\Versatile.Specflow.ExtentReports.CryptoEngine\bin\Debug\netcoreapp3.1\testcentric.engine.metadata.dll

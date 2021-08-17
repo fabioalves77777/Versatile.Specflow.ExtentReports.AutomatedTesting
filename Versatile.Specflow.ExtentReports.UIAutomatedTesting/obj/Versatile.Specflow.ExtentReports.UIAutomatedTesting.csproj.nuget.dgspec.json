@@ -49,7 +49,7 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.9.4, )"
+              "version": "[16.11.0, )"
             },
             "NUnit": {
               "target": "Package",
@@ -57,7 +57,7 @@
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.17.0, )"
+              "version": "[4.0.0, )"
             }
           },
           "imports": [
@@ -124,7 +124,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.9.4, )"
+              "version": "[16.11.0, )"
             },
             "NUnit": {
               "target": "Package",
@@ -132,7 +132,7 @@
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.17.0, )"
+              "version": "[4.0.0, )"
             }
           },
           "imports": [
@@ -206,7 +206,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.9.4, )"
+              "version": "[16.11.0, )"
             },
             "NUnit": {
               "target": "Package",
@@ -214,7 +214,7 @@
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.17.0, )"
+              "version": "[4.0.0, )"
             },
             "Selenium.Support": {
               "target": "Package",
@@ -226,7 +226,7 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[90.0.4430.2400, )"
+              "version": "[92.0.4515.10700, )"
             },
             "Selenium.WebDriver.GeckoDriver": {
               "target": "Package",
@@ -238,11 +238,11 @@
             },
             "SpecFlow": {
               "target": "Package",
-              "version": "[3.7.38, )"
+              "version": "[3.9.22, )"
             },
             "SpecFlow.NUnit": {
               "target": "Package",
-              "version": "[3.7.38, )"
+              "version": "[3.9.22, )"
             }
           },
           "imports": [
